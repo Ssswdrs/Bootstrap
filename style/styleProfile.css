@@ -1,0 +1,150 @@
+body {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTh6ZGFmd2MxMWM1dnM5M21jY2RzbHpxNWxzdnFjOHdyemU4Z2RwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.webp);
+
+}
+
+.home-button {
+    position: fixed;
+    color: white;
+    background-color: #808080;
+    padding: 6px;
+    margin: 3px;
+    top: 0;
+    z-index: 2;
+}
+
+.home-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    background-color: transparent;
+    margin-top: 3vh;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+
+.card-header {
+    background-color: transparent;
+}
+
+
+.icon {
+    background-color: white;
+    border-radius: 25px;
+    padding: 1px;
+}
+
+.card-body {
+    background-color: white;
+    padding: 10px;
+}
+
+.spotify {
+    width: 100%;
+}
+
+.calendar {
+    width: 20vw;
+    height: 20vw;
+}
+
+.time {
+    width: 20vw;
+    height: 20vw;
+}
+
+
+.row {
+    margin: 0px;
+}
+
+.row .image {
+    margin: 0;
+    padding: 0;
+}
+
+.fullName {
+    font-size: 2.5vw;
+}
+
+.topic {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.info {
+    font-weight: normal;
+}
+
+.titleEdu {
+    width: fit-content;
+}
+
+.educution {
+    padding: 1px;
+}
+
+.underline {
+    color: black;
+    background-color: black;
+    height: 0.8vw;
+}
+
+.card-title {
+    font-size: 2.5vw;
+}
+
+.eduInfo {
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        min-width: 432px;
+    }
+
+    .spotify {
+        margin: 0;
+        width: 17rem;
+    }
+
+    .calendar {
+        width: 7rem;
+        height: 7rem;
+        margin: 5px;
+    }
+
+    .time {
+        width: 7rem;
+        height: 7rem;
+        margin: 5px;
+    }
+
+    .topic {
+        font-size: 1rem;
+    }
+
+    .fullName {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .eduInfo {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .spotify {
+        height: 352px;
+        width: 20rem;
+    }
+}

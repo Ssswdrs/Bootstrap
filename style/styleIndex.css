@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTh6ZGFmd2MxMWM1dnM5M21jY2RzbHpxNWxzdnFjOHdyemU4Z2RwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.webp);
+
+}
+
+.button {
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    width: 300px;
+    margin-top: 20vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(252, 255, 87, 0.709);
+}
+
+.class {
+    text-decoration: none;
+}
+
+

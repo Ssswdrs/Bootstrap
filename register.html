@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/styleRegis.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="index.html" class="home-button rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+            <path
+                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
+        </svg></a>
+    <div class="container border">
+        <center>
+            <h3>Registration</h3>
+        </center>
+        <form action="index.html">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputEmail">First Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter First Name" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPassword">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter password" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputEmail">Username <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPassword">Nick Name </label>
+                        <input type="text" class="form-control" id="nickname" placeholder="Enter Nick Name">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="InputPassword">E-mail <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter E-mail" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPassword">Password <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password"
+                            maxlength="10" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPasswordCf">Confirm Password <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="passwordCf" placeholder="Enter Comfirm Password"
+                            maxlength="10" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputBirth">Birthday <span class="text-danger">*</span></label>
+                        <input type="date" class="form-control" id="password" placeholder="Enter Password"
+                            maxlength="10" required>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPasswordCf">Grade <span class="text-danger">*</span></label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="grade" name="grade" value="1" required>
+                            <label class="form-check-label">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="grade" name="grade" value="2">
+                            <label class="form-check-label">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="grade" name="grade" value="3">
+                            <label class="form-check-label">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="grade" name="grade" value="4">
+                            <label class="form-check-label">4</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputPassword">Gender <span class="text-danger">*</span></label><br>
+                        <select class="form-control form-select" aria-label="Default select example" id="gender" name="gender"
+                            required>
+                            <option value="">Select your gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="InputTel">Telephone <span class="text-danger">*</span></label>
+                        <input type="tel" class="form-control" id="tel" placeholder="123-456-7890">
+                        <small class="text-muted">Format: 123-456-7890</small>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="InputUniversity">University</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter University">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="InputHobbies">Hobbies</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Hobbies">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" required> <label> I accept the terms and conditions <span
+                        class="text-danger">*</span></label>
+            </div>
+
+            <button type="submit" class="btn btn-primary button">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
