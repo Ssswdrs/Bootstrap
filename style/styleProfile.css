@@ -146,11 +146,34 @@ body {
     .eduInfo {
         font-size: 1rem;
     }
+
+    .whiteB{
+        width: 250px;
+    }
+    
+    .cal{
+        width: 250px;
+    }
+    
+    .timer{
+        width: 250px;
+    }
 }
 
 @media only screen and (max-width:425px) {
     .spotify {
         height: 352px;
         width: 20rem;
+    }
+    .whiteB{
+        width: 230px;
+    }
+    
+    .cal{
+        width: 230px;
+    }
+    
+    .timer{
+        width: 230px;
     }
 }
