@@ -40,7 +40,6 @@ body {
 }
 
 .card-body {
-    background-color: white;
     padding: 10px;
 }
 
@@ -102,6 +101,13 @@ body {
 .eduInfo {
     font-size: 1.5vw;
 }
+
+.carousel-inner{
+    max-width: 400px;
+    z-index: 999;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .container {
